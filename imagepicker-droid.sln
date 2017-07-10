@@ -1,0 +1,28 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Naxam.ImagePicker.Droid", "Naxam.ImagePicker.Droid\Naxam.ImagePicker.Droid.csproj", "{827EAE2E-E006-41E8-8A5E-79CA8EE98584}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "demo", "demo", "{C4CC6800-02FC-4615-8BA2-7B0A5814C18D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImagePickerQs", "demo\ImagePickerQs\ImagePickerQs.csproj", "{2F2050F0-291F-4366-B1B1-58C5866AF7B6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{827EAE2E-E006-41E8-8A5E-79CA8EE98584}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{827EAE2E-E006-41E8-8A5E-79CA8EE98584}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{827EAE2E-E006-41E8-8A5E-79CA8EE98584}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{827EAE2E-E006-41E8-8A5E-79CA8EE98584}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F2050F0-291F-4366-B1B1-58C5866AF7B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F2050F0-291F-4366-B1B1-58C5866AF7B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F2050F0-291F-4366-B1B1-58C5866AF7B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F2050F0-291F-4366-B1B1-58C5866AF7B6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2F2050F0-291F-4366-B1B1-58C5866AF7B6} = {C4CC6800-02FC-4615-8BA2-7B0A5814C18D}
+	EndGlobalSection
+EndGlobal

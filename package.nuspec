@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <!-- Required elements-->
+        <id>Naxam.ImagePicker.Droid</id>
+        <version>1.1.3</version>
+        <description>Xamarin Binding Library - NguyenHoangLam::ImagePicker</description>
+        <authors>Do Thanh Binh</authors>
+        <owners>NAXAM CO.,LTD</owners>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <title>NguyenHoangLam::ImagePicker</title>
+        <releaseNotes>NguyenHoangLam::ImagePicker v1.1.3</releaseNotes>
+        <summary>Xamarin Binding Library - NguyenHoangLam::ImagePicker</summary>
+        <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
+        <projectUrl>https://github.com/NAXAM/imagepicker-android-binding</projectUrl>
+        <copyright>Copyright (c) 2017 NAXAM</copyright>
+        <tags>Xamarin.Android, imagepicker, photopicker, image-picker, photo-picker</tags>
+        <dependencies>
+            <dependency id="Glide.Xamarin" version="3.8.0" />
+            <dependency id="Xamarin.Android.Support.Design" version="25.3.1" />
+            <dependency id="Xamarin.Android.Support.v7.AppCompat" version="25.3.1" />
+            <dependency id="Xamarin.Android.Support.v7.RecyclerView" version="25.3.1" />
+        </dependencies>
+    </metadata>
+    <!-- Optional 'files' node -->
+    <files>
+        <file src="Naxam.ImagePicker.Droid/bin/Release/Naxam.ImagePicker.Droid.dll" target="lib/MonoAndroid10/Naxam.ImagePicker.Droid.dll" />
+    </files>
+</package>
