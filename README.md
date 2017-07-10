@@ -38,10 +38,10 @@ protected override void OnActivityResult(int requestCode, Result resultCode, And
 
 ## Screenshot
 
-  |  | 
----: | ---| :---
-<img src="https://cloud.githubusercontent.com/assets/4979755/18304733/46cfad58-750e-11e6-9a6c-129ece6cfc7d.png" /> |  | 
-<img src="https://cloud.githubusercontent.com/assets/4979755/18304727/44117484-750e-11e6-8ad1-85301a171690.png" />
+|  |  | |
+| ---: | ---| :---|
+| <img src="https://cloud.githubusercontent.com/assets/4979755/18304733/46cfad58-750e-11e6-9a6c-129ece6cfc7d.png" /> |  | 
+<img src="https://cloud.githubusercontent.com/assets/4979755/18304727/44117484-750e-11e6-8ad1-85301a171690.png" /> |
 
 
 ### Thanks
