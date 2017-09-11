@@ -2,11 +2,10 @@
 using Android.Widget;
 using Android.OS;
 using Android.Support.V7.App;
-using Com.Nguyenhoanglam.Imagepicker.Activity;
 
 namespace ImagePickerQs
 {
-    [Activity(Label = "ImagePickerQs", MainLauncher = true, Icon = "@mipmap/ic_launcher", Theme = "@style/MyTheme")]
+    [Activity(Label = "ImagePickerQs", MainLauncher = true, Icon = "@mipmap/ic_launcher", Theme = "@style/MyTheme.Base")]
     public class MainActivity : AppCompatActivity
     {
         int REQUEST_CODE_PICKER = 2000;

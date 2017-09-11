@@ -1,6 +1,7 @@
-
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.12
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Naxam.ImagePicker.Droid", "Naxam.ImagePicker.Droid\Naxam.ImagePicker.Droid.csproj", "{827EAE2E-E006-41E8-8A5E-79CA8EE98584}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "demo", "demo", "{C4CC6800-02FC-4615-8BA2-7B0A5814C18D}"
@@ -19,10 +20,17 @@ Global
 		{827EAE2E-E006-41E8-8A5E-79CA8EE98584}.Release|Any CPU.Build.0 = Release|Any CPU
 		{2F2050F0-291F-4366-B1B1-58C5866AF7B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2F2050F0-291F-4366-B1B1-58C5866AF7B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F2050F0-291F-4366-B1B1-58C5866AF7B6}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
 		{2F2050F0-291F-4366-B1B1-58C5866AF7B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2F2050F0-291F-4366-B1B1-58C5866AF7B6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{2F2050F0-291F-4366-B1B1-58C5866AF7B6} = {C4CC6800-02FC-4615-8BA2-7B0A5814C18D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {95B26321-7516-4769-A26D-C2DD6FF139E4}
 	EndGlobalSection
 EndGlobal

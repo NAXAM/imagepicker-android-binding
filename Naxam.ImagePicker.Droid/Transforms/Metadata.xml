@@ -1,12 +1,27 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <metadata>
+  
 	<!--
   This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
   <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
   
   This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
-  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='Cupath="/api/package[@name='com.nguyenhoanglam.imagepicker.adapter']/class[@name='FolderPickerAdapter']rsorLoader']/method[@name='loadInBackground']" />
   -->
-	<attr path="/api/package[@name='com.nguyenhoanglam.imagepicker.adapter']/class[@name='FolderPickerAdapter']/method[@name='onCreateViewHolder' and count(parameter)=2 and parameter[1][@type='android.view.ViewGroup'] and parameter[2][@type='int']]" name="managedName">OnCreateFolderViewHolder</attr>
-	<attr path="/api/package[@name='com.nguyenhoanglam.imagepicker.adapter']/class[@name='ImagePickerAdapter']/method[@name='onCreateViewHolder' and count(parameter)=2 and parameter[1][@type='android.view.ViewGroup'] and parameter[2][@type='int']]" name="managedName">OnCreateImageViewHolder</attr>
+  <add-node path="/api/package[@name='com.nguyenhoanglam.imagepicker.adapter']/class[@name='FolderPickerAdapter']">
+    <method abstract="false" deprecated="not deprecated" final="false" name="onBindViewHolder" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="holder" type="	android.support.v7.widget.RecyclerView.ViewHolder"/> 
+        <parameter name="position" type="int"/> 
+      </method>
+    
+  </add-node>
+  <add-node path="/api/package[@name='com.nguyenhoanglam.imagepicker.adapter']/class[@name='ImagePickerAdapter']">
+    <method abstract="false" deprecated="not deprecated" final="false" name="onBindViewHolder" native="false" return="void" static="false" synchronized="false" visibility="public">
+      <parameter name="holder" type="	android.support.v7.widget.RecyclerView.ViewHolder"/>
+      <parameter name="position" type="int"/>
+    </method>
+
+  </add-node>
+	<!--<attr /method[@name='onCreateViewHolder' and count(parameter)=2 and parameter[1][@type='android.view.ViewGroup'] and parameter[2][@type='int']]" name="managedReturn">OnCreateFolderViewHolder</attr>
+	<attr path="/api/package[@name='com.nguyenhoanglam.imagepicker.adapter']/class[@name='ImagePickerAdapter']/method[@name='onCreateViewHolder' and count(parameter)=2 and parameter[1][@type='android.view.ViewGroup'] and parameter[2][@type='int']]" name="managedReturn">OnCreateImageViewHolder</attr>-->
 </metadata>

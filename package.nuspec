@@ -3,13 +3,13 @@
     <metadata>
         <!-- Required elements-->
         <id>Naxam.ImagePicker.Droid</id>
-        <version>1.1.3</version>
+        <version>1.2.0</version>
         <description>Xamarin Binding Library - NguyenHoangLam::ImagePicker</description>
         <authors>Do Thanh Binh</authors>
         <owners>NAXAM CO.,LTD</owners>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <title>NguyenHoangLam::ImagePicker</title>
-        <releaseNotes>NguyenHoangLam::ImagePicker v1.1.3</releaseNotes>
+        <releaseNotes>NguyenHoangLam::ImagePicker v1.2.0</releaseNotes>
         <summary>Xamarin Binding Library - NguyenHoangLam::ImagePicker</summary>
         <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
         <projectUrl>https://github.com/NAXAM/imagepicker-android-binding</projectUrl>
