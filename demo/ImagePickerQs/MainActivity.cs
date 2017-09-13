@@ -94,7 +94,16 @@ namespace ImagePickerQs
         {
             if (requestCode == Config.RcPickImages && (int)resultCode == -1 && data != null)
             {
-                images =(List<Image>) data.GetParcelableArrayListExtra(Config.ExtraImages);
+               
+
+                var list = data.GetParcelableArrayListExtra(Config.ExtraImages);
+                if (list != null) {
+                    foreach (var item in list)
+                    {
+                        images.Add((Image)item);
+                    }
+                }
+               
                 adapter.setData(images);
             }
             base.OnActivityResult(requestCode, resultCode, data);
@@ -102,7 +111,7 @@ namespace ImagePickerQs
 
         //public override void OnBackPressed()
         //{
-        //    FragmentManager fm = SupportFragmentManager;
+        //    FragmentManager fm = GetSupportFragmentManager();
         //    Fragment fragment = fm.FindFragmentById(Resource.Id.fragment_container);
         //    if (fragment == null)
         //    {

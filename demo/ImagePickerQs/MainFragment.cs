@@ -80,7 +80,12 @@ namespace ImagePickerQs
         {
             if (requestCode == Config.RcPickImages && resultCode == -1 && data != null)
             {
-                images = (List<Image>)data.GetParcelableArrayListExtra(Config.ExtraImages);
+                var list = data.GetParcelableArrayListExtra(Config.ExtraImages);
+                foreach (var item in list)
+                {
+                    images.Add((Image)item);
+                }
+               // images = data.GetParcelableArrayListExtra(Config.ExtraImages);
                 adapter.setData(images);
             }
         }

@@ -12,6 +12,7 @@ using Android.Widget;
 using Com.Nguyenhoanglam.Imagepicker.Model;
 using Android.Support.V7.Widget;
 using Com.Bumptech.Glide;
+using Com.Bumptech.Glide.Request;
 
 namespace ImagePickerQs
 {
@@ -20,14 +21,14 @@ namespace ImagePickerQs
         private Context context;
         private List<Image> images;
         private LayoutInflater inflater;
-        // private RequestOptions options;
+        private RequestOptions options;
 
         public ImageAdapter(Context context)
         {
             this.context = context;
             inflater = LayoutInflater.From(context);
             images = new List<Image>();
-            //options = new RequestOptions().placeholder(R.drawable.image_placeholder).error(R.drawable.image_placeholder);
+            options = new RequestOptions().Placeholder(Resource.Drawable.image_placeholder).Error(Resource.Drawable.image_placeholder);
         }
         public override int ItemCount =>images.Count;
 
@@ -38,6 +39,7 @@ namespace ImagePickerQs
 
             Glide.With(context)
                     .Load(image.Path)
+                    .Apply(options)
                     .Into(mHoder.imageView);
         }
         public void setData(List<Image> images)
