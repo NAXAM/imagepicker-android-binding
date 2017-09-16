@@ -16,7 +16,7 @@
         <copyright>Copyright (c) 2017 NAXAM</copyright>
         <tags>Xamarin.Android, imagepicker, photopicker, image-picker, photo-picker</tags>
         <dependencies>
-            <dependency id="Glide.Xamarin" version="3.8.0" />
+            <dependency id="Glide.Xamarin" version="4.0.0" />
             <dependency id="Xamarin.Android.Support.Design" version="25.3.1" />
             <dependency id="Xamarin.Android.Support.v7.AppCompat" version="25.3.1" />
             <dependency id="Xamarin.Android.Support.v7.RecyclerView" version="25.3.1" />
