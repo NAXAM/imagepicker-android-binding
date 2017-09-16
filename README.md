@@ -6,9 +6,9 @@ A Xamarin.Android binding library for [ImagePicker](https://github.com/nguyenhoa
 
     A simple library to select images from the gallery and camera.
 
-|  |  | |
-| ---: | ---| :---|
-| <img src="https://cloud.githubusercontent.com/assets/4979755/18304733/46cfad58-750e-11e6-9a6c-129ece6cfc7d.png" /> |  | <img src="https://cloud.githubusercontent.com/assets/4979755/18304727/44117484-750e-11e6-8ad1-85301a171690.png" /> |
+|  | |
+| ---: | :---|
+| <img src="https://cloud.githubusercontent.com/assets/4979755/18304733/46cfad58-750e-11e6-9a6c-129ece6cfc7d.png" /> | <img src="https://cloud.githubusercontent.com/assets/4979755/18304727/44117484-750e-11e6-8ad1-85301a171690.png" /> |
 
 ## About
 This project is maintained by Naxam Co.,Ltd.<br>
@@ -21,7 +21,7 @@ We specialize in developing mobile applications using Xamarin and native technol
 
 ## Installation
 
-    Install-Package Naxam.RxJava2.Droid
+    Install-Package Naxam.ImagePicker.Droid
 
 ## How to use
 ### Start image picker activity
